@@ -1,0 +1,24 @@
+{
+  "name": "get_crypto_simple",
+  "version": "1.0.0",
+  "description": "Gets the current price of some coins",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlterNayte/get_crypto_simple.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlterNayte/get_crypto_simple/issues"
+  },
+  "homepage": "https://github.com/AlterNayte/get_crypto_simple#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "fastify": "^3.7.0"
+  }
+}
