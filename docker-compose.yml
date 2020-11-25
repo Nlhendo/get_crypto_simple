@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   getcryptosimple:
-    image: getcryptosimple
+    image: hendoapps.azurecr.io/getcryptosimple
     build:
       context: .
       dockerfile: ./Dockerfile
